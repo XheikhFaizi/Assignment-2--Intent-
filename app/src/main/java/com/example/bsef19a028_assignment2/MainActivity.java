@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button b1,b2,b3,b4,b5;
+    public Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +64,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        b6= findViewById(R.id.button10);
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this , Activity7.class);
+                startActivity(intent);
+            }
+        });
 
+        b7= findViewById(R.id.button13);
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this , Activity8.class);
+                startActivity(intent);
+            }
+        });
     }
 }
