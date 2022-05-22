@@ -17,7 +17,7 @@
         android:text="10"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintEnd_toStartOf="@+id/button14"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toEndOf="@+id/button13"
@@ -34,7 +34,7 @@
         android:text="3"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,7 +50,7 @@
         android:text="9"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12"
@@ -68,7 +68,7 @@
         android:text="7"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12"
@@ -85,7 +85,7 @@
         android:text="4"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
@@ -100,7 +100,7 @@
         android:text="5"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
 
@@ -114,7 +114,7 @@
         android:text="6"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button7"
@@ -130,7 +130,7 @@
         android:text="2"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintEnd_toStartOf="@+id/button7"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toEndOf="@+id/button5"
@@ -147,7 +147,7 @@
         android:text="1"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -161,7 +161,7 @@
         android:text="8"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="40sp"
+        android:textSize="38sp"
         app:layout_constraintEnd_toStartOf="@+id/button14"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toEndOf="@+id/button13"
