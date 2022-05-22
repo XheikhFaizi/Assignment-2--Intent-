@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button b1,b2,b3,b4;
+    public Button b1,b2,b3,b4,b5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +51,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this , Activity5.class);
+                startActivity(intent);
+            }
+        });
+
+        b5= findViewById(R.id.button11);
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this , Activity6.class);
                 startActivity(intent);
             }
         });
