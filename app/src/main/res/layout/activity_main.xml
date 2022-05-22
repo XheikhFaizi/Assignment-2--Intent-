@@ -12,14 +12,14 @@
         android:layout_width="112dp"
         android:layout_height="71dp"
 
+        android:layout_marginTop="24dp"
         android:background="@drawable/rect_rounded_button"
         android:text="10"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button14"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toEndOf="@+id/button13"
         app:layout_constraintTop_toBottomOf="@+id/button16" />
 
@@ -28,7 +28,7 @@
         android:layout_width="112dp"
         android:layout_height="71dp"
 
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="276dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rect_rounded_button"
         android:text="3"
@@ -43,7 +43,7 @@
         android:layout_width="112dp"
         android:layout_height="71dp"
 
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="92dp"
         android:background="@drawable/rect_rounded_button"
@@ -54,7 +54,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button13"
@@ -62,7 +62,7 @@
         android:layout_height="71dp"
         android:layout_marginStart="16dp"
 
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:layout_marginBottom="92dp"
         android:background="@drawable/rect_rounded_button"
         android:text="7"
@@ -72,7 +72,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button12"
@@ -80,7 +80,7 @@
         android:layout_height="71dp"
         android:layout_marginStart="16dp"
 
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/rect_rounded_button"
         android:text="4"
         android:textColor="#FFFFFF"
@@ -94,7 +94,7 @@
         android:layout_width="112dp"
         android:layout_height="71dp"
 
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/rect_rounded_button"
         android:text="5"
@@ -117,14 +117,15 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.333" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button8"
         android:layout_width="112dp"
         android:layout_height="71dp"
 
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="276dp"
         android:background="@drawable/rect_rounded_button"
         android:text="2"
         android:textColor="#FFFFFF"
@@ -141,7 +142,7 @@
         android:layout_height="71dp"
         android:layout_marginStart="16dp"
 
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="276dp"
         android:background="@drawable/rect_rounded_button"
         android:text="1"
         android:textColor="#FFFFFF"
@@ -155,15 +156,27 @@
         android:layout_width="112dp"
         android:layout_height="71dp"
 
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/rect_rounded_button"
         android:text="8"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="40sp"
         app:layout_constraintEnd_toStartOf="@+id/button14"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toEndOf="@+id/button13"
-        app:layout_constraintTop_toBottomOf="@+id/button12" />
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="226dp"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/_16110523_294755839344213_744952498267450183_n_removebg_preview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
